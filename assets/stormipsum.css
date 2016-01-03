@@ -1,6 +1,6 @@
 
 body {
-  background: #fff url("/assets/storm.jpg") no-repeat fixed;
+  background: #fff url("storm.jpg") no-repeat fixed;
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
