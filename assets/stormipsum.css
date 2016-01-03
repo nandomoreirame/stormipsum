@@ -1,0 +1,52 @@
+
+body {
+  background: #fff url("/assets/storm.jpg") no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  padding: 5em 1em;
+}
+
+header img.img-responsive {
+  display: inline;
+}
+
+.container {
+  background-color: rgba(0,0,0,.7);
+}
+
+.jumbotron {
+  background-color: transparent;
+  max-height: 450px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.jumbotron p {
+  font-weight: lighter;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.fb-like {
+  width: 190px;
+  text-align: left;
+}
+
+.fb-like span {
+  vertical-align: top !important;
+  top: -5px;
+}
+
+footer {
+  padding: 2em 0;
+}
+
+footer p {
+  margin: 2em 0;
+}
