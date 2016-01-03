@@ -33,7 +33,11 @@
   storm.push("These are not the droids we're looking  for. Open the blast doors! Traitor!! It's them. Blast them!Traitor!! Follow me. You were right about the Empire, Leia. I guess I knew it all along. I'd like to come with you— if you'll have me.");
   storm.push("All right, we'll check it out.");
   storm.push("All right, check that side of the street. It's secure. Move on to the next door.");
-  storm.push("With pleasure.");
+
+  var clipboard = new Clipboard('.btn-clippy');
+  clipboard.on('success', function(e) {
+    alert("Traitor!");
+  });
 
   function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
@@ -70,7 +74,7 @@
         }
 
         if(stormNew !== undefined) {
-          stormNew = stormNew + "<p>" + storm[index] + "</p>";
+          stormNew = stormNew + storm[index] + "\n\n";
         }
       });
 

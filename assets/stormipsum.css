@@ -10,6 +10,10 @@ header {
   padding: 5em 1em;
 }
 
+header p {
+  font-size: 2rem;
+}
+
 header img.img-responsive {
   display: inline;
 }
@@ -20,8 +24,6 @@ header img.img-responsive {
 
 .jumbotron {
   background-color: transparent;
-  max-height: 450px;
-  overflow-y: auto;
   margin-top: 10px;
 }
 
@@ -31,6 +33,12 @@ header img.img-responsive {
 
 .jumbotron p:last-child {
   margin-bottom: 0;
+}
+
+textarea.storm {
+  min-height: 260px;
+  overflow-y: auto;
+  color: #333;
 }
 
 .fb-like {

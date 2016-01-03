@@ -23,7 +23,7 @@
       <div class="col-md-12">
         <div class="text-center">
           <header>
-            <img src="./assets/stormipsum.png" height="123" width="971" alt="" class="img-responsive">
+            <img src="./assets/stormipsum.png" height="123" width="971" alt="StormIpsum" class="img-responsive">
             <p>"There aren't the droids we're looking for" - Stormtrooper</p>
           </header>
 
@@ -49,9 +49,13 @@
             <button class="button btn btn-default" role="group">19</button>
             <button class="button btn btn-default" role="group">20</button>
           </div>
+          <button class="btn btn-default btn-clippy" type="button" data-clipboard-demo="" data-clipboard-target="#storm">
+            <img class="clippy" src="assets/clippy.svg" width="13" alt="Copy to clipboard">
+            Copy to clipboard
+          </button>
         </div>
         <div class="jumbotron">
-          <div id="storm"></div>
+          <textarea class="storm form-control" id="storm"></textarea>
         </div>
 
         <footer class="text-center">
@@ -61,7 +65,7 @@
 
           <span class="fb-like" data-href="http://nandomoreira.me/stormipsum/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></span>
 
-          <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://nandomoreira.me/stormipsum/" data-text='"Move along. Move along." - Stormtrooper' data-via="nandomoreirame" data-hashtags="stormtrooper,stormipsum,starwars,loremipsum">Tweet</a>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://nandomoreira.me/stormipsum/" data-text='"Move along. Move along." - Stormtrooper' data-via="nandomoreirame" data-hashtags="stormtrooper,stormipsum,starwars,loremipsum">Tweet</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
           <p class="text-muted"><small><a href="http://nandomoreira.me/">nandomoreira.me</a></small></p>
@@ -69,6 +73,7 @@
       </div>
     </main>
 
+    <script src="./vendor/clipboard.min.js"></script>
     <script src="./assets/stormipsum.js"></script>
   </body>
 </html><!-- by nandomoreira.me -->
